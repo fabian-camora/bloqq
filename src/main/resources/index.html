@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bloqq</title>
+    <script src="/src/main/resources/js/angular.js"></script>
+    <script src="/src/main/resources/js/script-detection.js"></script>
+    <script src="/src/main/resources/js/angular-bens-main-object.js"></script>
+    <script src="/src/main/resources/js/controllers.js"></script>
+    <script src="/src/main/resources/js/directives.js"></script>
+    <script src="/src/main/resources/js/controllers.js"></script>
+
+
+</head>
+<body ng-app="myApp">
+…
+<div ng-controller="MyCtrl as vm">
+    <div class="form-group">
+        <fieldset>
+            <label>your name: </label> <input ng-model="name" class="form-control">
+        </fieldset>
+    </div>
+
+    <button ng-click="vm.helloAngularBeans.sayHello(name)" class="btn btn-primary">click me</button>
+    <span color="blue">message {{vm.helloAngularBeans.message}}</span>
+</div>
+</body>
+</html>

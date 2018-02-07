@@ -11,14 +11,12 @@
 
 angular
   .module('HelloAngularBeans', [
-	'angularBeans',
     'ngAnimate',
     'ngCookies',
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch',
-    'angularFileUpload'
+    'ngTouch'
   ])
 
 angular.module('HelloAngularBeans')

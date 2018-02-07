@@ -1,2 +1,1 @@
-angular.module("myApp",["HelloAngularBeans"])
-	.controller("MyCtrl",MyCtrl);
+angular.module("myApp",["HelloAngularBeans"]).controller("MyCtrl",MyCtrl);

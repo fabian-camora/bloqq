@@ -11,4 +11,7 @@
         based on the recommendations of the Application Developer's Guide.
     </description>
 
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
 </web-app>

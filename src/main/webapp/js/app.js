@@ -10,8 +10,8 @@
  **/
 
 angular
-  .module('VirtualClassRoomModule', [
-	'angularBeans',                          
+  .module('HelloAngularBeans', [
+	'angularBeans',
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -21,7 +21,7 @@ angular
     'angularFileUpload'
   ])
 
-angular.module('VirtualClassRoomModule')
+angular.module('HelloAngularBeans')
 
 .config(function ($routeProvider) {
     $routeProvider
@@ -52,7 +52,7 @@ angular.module('VirtualClassRoomModule')
   });
  
 
-angular.module('VirtualClassRoomModule').run(function($rootScope, $location) {
+angular.module('HelloAngularBeans').run(function($rootScope, $location) {
 	    $rootScope.$on("$routeChangeStart", function(event, next, current) {
 	    	
 	      if ($rootScope.GRANT_LOGIN==null) {

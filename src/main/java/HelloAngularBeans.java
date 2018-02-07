@@ -1,5 +1,3 @@
-package beans;
-
 import angularBeans.api.AngularBean;
 import angularBeans.api.NGReturn;
 import angularBeans.api.http.Get;
